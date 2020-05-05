@@ -15,6 +15,8 @@
 		E598982124610F9200C1A781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E598981F24610F9200C1A781 /* LaunchScreen.storyboard */; };
 		E598982C24610F9200C1A781 /* KintoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598982B24610F9200C1A781 /* KintoreTests.swift */; };
 		E598983724610F9200C1A781 /* KintoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598983624610F9200C1A781 /* KintoreUITests.swift */; };
+		E59898452461129300C1A781 /* GraphHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59898442461129300C1A781 /* GraphHeader.xib */; };
+		E598984A2461134100C1A781 /* GraphPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59898492461134100C1A781 /* GraphPageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E598983224610F9200C1A781 /* KintoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KintoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E598983624610F9200C1A781 /* KintoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KintoreUITests.swift; sourceTree = "<group>"; };
 		E598983824610F9200C1A781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59898442461129300C1A781 /* GraphHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GraphHeader.xib; path = ../GraphHeader.xib; sourceTree = "<group>"; };
+		E59898492461134100C1A781 /* GraphPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		E598981324610F8900C1A781 /* Kintore */ = {
 			isa = PBXGroup;
 			children = (
+				E5989846246112D600C1A781 /* Component */,
 				E598981424610F8900C1A781 /* AppDelegate.swift */,
 				E598981624610F8900C1A781 /* SceneDelegate.swift */,
 				E598981824610F8900C1A781 /* ViewController.swift */,
@@ -126,6 +131,31 @@
 				E598983824610F9200C1A781 /* Info.plist */,
 			);
 			path = KintoreUITests;
+			sourceTree = "<group>";
+		};
+		E5989846246112D600C1A781 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E59898482461130600C1A781 /* Organisms */,
+				E5989847246112E800C1A781 /* Pages */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		E5989847246112E800C1A781 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E59898492461134100C1A781 /* GraphPageController.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E59898482461130600C1A781 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+				E59898442461129300C1A781 /* GraphHeader.xib */,
+			);
+			path = Organisms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +265,7 @@
 				E598982124610F9200C1A781 /* LaunchScreen.storyboard in Resources */,
 				E598981E24610F9200C1A781 /* Assets.xcassets in Resources */,
 				E598981C24610F8900C1A781 /* Main.storyboard in Resources */,
+				E59898452461129300C1A781 /* GraphHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E598981924610F8900C1A781 /* ViewController.swift in Sources */,
+				E598984A2461134100C1A781 /* GraphPageController.swift in Sources */,
 				E598981524610F8900C1A781 /* AppDelegate.swift in Sources */,
 				E598981724610F8900C1A781 /* SceneDelegate.swift in Sources */,
 			);

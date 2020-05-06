@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E598981524610F8900C1A781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598981424610F8900C1A781 /* AppDelegate.swift */; };
 		E598981724610F8900C1A781 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598981624610F8900C1A781 /* SceneDelegate.swift */; };
-		E598981924610F8900C1A781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598981824610F8900C1A781 /* ViewController.swift */; };
+		E598981924610F8900C1A781 /* FoodPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598981824610F8900C1A781 /* FoodPageController.swift */; };
 		E598981C24610F8900C1A781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E598981A24610F8900C1A781 /* Main.storyboard */; };
 		E598981E24610F9200C1A781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E598981D24610F9200C1A781 /* Assets.xcassets */; };
 		E598982124610F9200C1A781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E598981F24610F9200C1A781 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,11 @@
 		E598983724610F9200C1A781 /* KintoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598983624610F9200C1A781 /* KintoreUITests.swift */; };
 		E59898452461129300C1A781 /* GraphHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59898442461129300C1A781 /* GraphHeader.xib */; };
 		E598984A2461134100C1A781 /* GraphPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59898492461134100C1A781 /* GraphPageController.swift */; };
+		E598984D246150A100C1A781 /* VideoPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598984C246150A100C1A781 /* VideoPageController.swift */; };
+		E598984F246150B600C1A781 /* VideoDetailPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598984E246150B600C1A781 /* VideoDetailPageController.swift */; };
+		E59898512461555B00C1A781 /* GraphHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59898502461555B00C1A781 /* GraphHeader.swift */; };
+		E5989853246159C400C1A781 /* GraphItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5989852246159C400C1A781 /* GraphItem.xib */; };
+		E5989855246159CD00C1A781 /* GraphItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5989854246159CD00C1A781 /* GraphItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		E598981124610F8900C1A781 /* Kintore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kintore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E598981424610F8900C1A781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E598981624610F8900C1A781 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E598981824610F8900C1A781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E598981824610F8900C1A781 /* FoodPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPageController.swift; sourceTree = "<group>"; };
 		E598981B24610F8900C1A781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E598981D24610F9200C1A781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E598982024610F9200C1A781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,8 +56,13 @@
 		E598983224610F9200C1A781 /* KintoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KintoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E598983624610F9200C1A781 /* KintoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KintoreUITests.swift; sourceTree = "<group>"; };
 		E598983824610F9200C1A781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E59898442461129300C1A781 /* GraphHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GraphHeader.xib; path = ../GraphHeader.xib; sourceTree = "<group>"; };
+		E59898442461129300C1A781 /* GraphHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphHeader.xib; sourceTree = "<group>"; };
 		E59898492461134100C1A781 /* GraphPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphPageController.swift; sourceTree = "<group>"; };
+		E598984C246150A100C1A781 /* VideoPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPageController.swift; sourceTree = "<group>"; };
+		E598984E246150B600C1A781 /* VideoDetailPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailPageController.swift; sourceTree = "<group>"; };
+		E59898502461555B00C1A781 /* GraphHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphHeader.swift; sourceTree = "<group>"; };
+		E5989852246159C400C1A781 /* GraphItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphItem.xib; sourceTree = "<group>"; };
+		E5989854246159CD00C1A781 /* GraphItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +116,6 @@
 				E5989846246112D600C1A781 /* Component */,
 				E598981424610F8900C1A781 /* AppDelegate.swift */,
 				E598981624610F8900C1A781 /* SceneDelegate.swift */,
-				E598981824610F8900C1A781 /* ViewController.swift */,
 				E598981A24610F8900C1A781 /* Main.storyboard */,
 				E598981D24610F9200C1A781 /* Assets.xcassets */,
 				E598981F24610F9200C1A781 /* LaunchScreen.storyboard */,
@@ -145,7 +154,10 @@
 		E5989847246112E800C1A781 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				E598981824610F8900C1A781 /* FoodPageController.swift */,
 				E59898492461134100C1A781 /* GraphPageController.swift */,
+				E598984C246150A100C1A781 /* VideoPageController.swift */,
+				E598984E246150B600C1A781 /* VideoDetailPageController.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -154,6 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				E59898442461129300C1A781 /* GraphHeader.xib */,
+				E59898502461555B00C1A781 /* GraphHeader.swift */,
+				E5989852246159C400C1A781 /* GraphItem.xib */,
+				E5989854246159CD00C1A781 /* GraphItem.swift */,
 			);
 			path = Organisms;
 			sourceTree = "<group>";
@@ -265,6 +280,7 @@
 				E598982124610F9200C1A781 /* LaunchScreen.storyboard in Resources */,
 				E598981E24610F9200C1A781 /* Assets.xcassets in Resources */,
 				E598981C24610F8900C1A781 /* Main.storyboard in Resources */,
+				E5989853246159C400C1A781 /* GraphItem.xib in Resources */,
 				E59898452461129300C1A781 /* GraphHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E598981924610F8900C1A781 /* ViewController.swift in Sources */,
+				E598984D246150A100C1A781 /* VideoPageController.swift in Sources */,
+				E598981924610F8900C1A781 /* FoodPageController.swift in Sources */,
 				E598984A2461134100C1A781 /* GraphPageController.swift in Sources */,
+				E5989855246159CD00C1A781 /* GraphItem.swift in Sources */,
+				E598984F246150B600C1A781 /* VideoDetailPageController.swift in Sources */,
+				E59898512461555B00C1A781 /* GraphHeader.swift in Sources */,
 				E598981524610F8900C1A781 /* AppDelegate.swift in Sources */,
 				E598981724610F8900C1A781 /* SceneDelegate.swift in Sources */,
 			);
